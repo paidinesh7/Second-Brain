@@ -4,6 +4,15 @@ A lightweight, self-hosted, and bidirectional Markdown template to compile your 
 
 ---
 
+## 📖 New to the Vault? Read the Complete Guide
+If you are setting this up for the first time, check out our **[Getting Started Guide (GETTING_STARTED.md)](GETTING_STARTED.md)** for:
+1. **Interactive Step-by-Step Setup** of your local vault.
+2. **Real-World Examples** (e.g., *Dinesh Pai, Head of Investments at Rainmatter & VP of Business Analytics & Investments at Zerodha*) showing exactly how to populate your personal identity, decision playbooks (featuring Rainmatter's *Patient Capital* rules), and curated summaries.
+3. **⚡ CLI Power Integration** showing how you can use terminal commands and shell functions to keep feeding and experimenting with your vault on the fly.
+4. **LLM Connection Guides** for Claude Projects, ChatGPT Custom GPTs, Obsidian community plugins (Copilot, Smart Connections), and 100% offline local LLMs via Ollama.
+
+---
+
 ## 🧭 Why Use a Sovereign Context Vault?
 
 Traditional personal knowledge management is locked inside fragmented SaaS databases, or easily hallucinated by LLMs. This repository offers a decentralized, plain-text alternative.
@@ -59,13 +68,23 @@ To color-code your neural mind map, open the **Graph Settings** (Gear icon on yo
 
 ---
 
-## 🧠 Running Your "Digital Twin"
+## 🧠 Connecting Your LLM of Choice
 
-To ground any LLM in your exact verified context, upload your customized Markdown files (`profile.md`, `investment.md`, `curation.md`) and paste this prompt:
+You can ground any advanced AI model in your exact verified context files (`profile.md`, `investment.md`, `curation.md`). There are three main ways to connect your LLM:
 
+### 1. Web UI Upload (No-Code)
+Upload your customized files directly as **Project Knowledge** in Claude Projects (Claude Pro) or **Knowledge Files** in Custom GPTs (ChatGPT Plus), and prompt:
 ```text
 Act as my personal digital twin. Ingest these context files to understand exactly how I write, make decisions, handle risk, and evaluate opportunities. Ground all subsequent drafts, emails, and analyses strictly in these playbooks.
 ```
+
+### 2. Obsidian Community Plugins (Integrated Sidebar)
+Install community plugins like **Copilot for Obsidian** or **Smart Connections** to index your local vault files and chat with your Second Brain directly from your note-taking environment.
+
+### 3. Offline & Local LLMs (100% Secure & Private)
+Run local models like Llama 3 via **Ollama** on your own computer. Pipe your files directly in your terminal, or connect Obsidian Copilot to your local Ollama port (`localhost:11434`) for a fully offline AI companion.
+
+> 💡 For detailed, step-by-step instructions and command-line scripts for each of these options, check out the **[Connecting Your LLM section in GETTING_STARTED.md](GETTING_STARTED.md#-step-3-connecting-your-llm-of-choice)**.
 
 ---
 
