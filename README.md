@@ -1,10 +1,10 @@
-# 🧭 Second Brain: The Sovereign Personal Context Vault & Allocator Playbook
+# Second Brain: The Personal Context Vault & Allocator Playbook
 
 > *An open-source, plain-text, and bidirectional Markdown template to build a permanent, AI-ready "second brain." Grounded in your own verified context, portable across any LLM, and fully compatible with Obsidian.*
 
 ---
 
-## 🧭 Why Build a Sovereign Second Brain?
+## Why Build a Sovereign Second Brain?
 
 In the age of AI, traditional personal branding is messy, scattered, and easily hallucinated by LLMs. Relying on centralized SaaS note-taking apps or proprietary databases locks your mind in an extractive cage.
 
@@ -17,7 +17,7 @@ The **Sovereign Second Brain** solves this. It is a modular, self-hosted databas
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 When cloned, this repository provides a clean, pre-structured "Second Brain" vault ready to load into Obsidian:
 
@@ -32,7 +32,7 @@ Second Brain/
 
 ---
 
-## 🛠️ Quick Start Guide (How to use this)
+## Quick Start Guide (How to use this)
 
 ### Step 1: Clone this Repository
 Clone this repository directly into your local workspace folder:
@@ -54,7 +54,7 @@ Open the template files in your favorite editor (like VS Code) and customize the
 
 ---
 
-## 🎨 Recommended Graph Groups & Color Settings
+## Recommended Graph Groups & Color Settings
 
 To transform your graph view from plain gray circles into a gorgeous, highly professional mind-map, open the **Graph Settings** (Gear icon on your graph screen) -> **Groups** -> **New group**, and add these search queries and colors:
 
@@ -73,7 +73,7 @@ To transform your graph view from plain gray circles into a gorgeous, highly pro
 
 ---
 
-## 🧠 Feed the AI (How to run your "Digital Twin")
+## Feed the AI (How to run your "Digital Twin")
 
 Once you have filled in your files, you can copy-paste or upload your Markdown context directly to any LLM (Claude, ChatGPT, or local Llama models) and prompt it:
 
@@ -83,7 +83,7 @@ You now have a conversational partner that knows your mind, writes in your style
 
 ---
 
-## 🛰️ Advanced Extensions (Build on top of this)
+## Advanced Extensions (Build on top of this)
 
 Once your core Second Brain is established, you can build two high-leverage expansions on top of it:
 
