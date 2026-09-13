@@ -1,6 +1,6 @@
-# Second Brain: The Sovereign Personal Context Vault
+# Second Brain: Personal Context Vault
 
-A lightweight, self-hosted, and bidirectional Markdown template to compile your biography, operating manual, and professional playbooks into an AI-ready personal database. Fully compatible with Obsidian.
+A lightweight, self-hosted template to compile your biography, operating manual, and professional playbooks into a database. Fully compatible with Obsidian.
 
 ---
 
