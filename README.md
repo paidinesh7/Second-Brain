@@ -6,10 +6,9 @@ A lightweight, self-hosted, and bidirectional Markdown template to compile your 
 
 ## 📖 New to the Vault? Read the Complete Guide
 If you are setting this up for the first time, check out our **[Getting Started Guide (GETTING_STARTED.md)](GETTING_STARTED.md)** for:
-1. **Interactive Step-by-Step Setup** of your local vault.
-2. **Real-World Examples** (e.g., *Dinesh Pai, Head of Investments at Rainmatter & VP of Business Analytics & Investments at Zerodha*) showing exactly how to populate your personal identity, decision playbooks (featuring Rainmatter's *Patient Capital* rules), and curated summaries.
-3. **⚡ CLI Power Integration** showing how you can use terminal commands and shell functions to keep feeding and experimenting with your vault on the fly.
-4. **LLM Connection Guides** for Claude Projects, ChatGPT Custom GPTs, Obsidian community plugins (Copilot, Smart Connections), and 100% offline local LLMs via Ollama.
+1. **The 2-Minute Conversational Setup:** The easiest way to get started—simply clone the repository and run **Gemini CLI** directly in the folder to talk, feed articles, add frameworks, and experiment!
+2. **Real-World Examples:** Featuring real-world examples (e.g., *Dinesh Pai, Head of Investments at Rainmatter & VP of Business Analytics & Investments at Zerodha*) showing exactly how to populate your biography, Rainmatter patient capital playbooks, and curated summaries.
+3. **Optional Obsidian & Web UI Integration:** Visualizing your notes as an interactive 3D neural map in Obsidian, or loading your vault into Claude Projects and ChatGPT Custom GPTs.
 
 ---
 
@@ -36,24 +35,34 @@ The vault is divided into modular, pre-structured files ready to load:
 
 ---
 
-## 🛠️ Quick Start (3-Step Setup)
+## 🛠️ Easiest Quick Start (2-Minute Setup)
 
-### 1. Clone the Vault
-Clone this repository directly into your local directory:
+The absolute simplest way to build, feed, and interact with your personal context vault is **conversationally through the command line** using **Gemini CLI**.
+
+### 1. Download & Launch
+Clone this repository and launch Gemini CLI directly inside your new local folder:
 ```bash
 git clone https://github.com/paidinesh7/Second-Brain.git
+cd Second-Brain
+gemini
 ```
 
-### 2. Customize the Templates
-Open the template files in any text editor and customize the placeholders (e.g., `[Your Name]`, `[Rule 1]`):
-*   Rename `profile_template.md` ➔ **`profile.md`**
-*   Rename `playbook_template.md` ➔ **`investment.md`**
-*   Rename `curation_template.md` ➔ **`curation.md`**
+### 2. Talk to Feed and Experiment!
+Speak naturally to the CLI to initialize your files, append frameworks, write articles, or query your playbooks. The CLI automatically handles the Markdown formatting, file editing, and file reads for you.
+*   **Initialize:** *"Initialize my profile. My name is Dinesh Pai, Head of Investments at Rainmatter..."*
+*   **Feed Curation:** *"Feed this article on 7 Powers by Hamilton Helmer to my curation..."*
+*   **Audit Playbook:** *"Add a GST corporate governance screen to my investment playbook..."*
+*   **Interact & Query:** *"Based on my profile.md writing style, draft a response to this pitch..."*
 
-### 3. Load in Obsidian
-1.  Download **[Obsidian](https://obsidian.md/)** (free, offline Markdown editor).
+---
+
+## 🎨 Optional: Visualize in Obsidian
+
+If you want to view your Second Brain notes as an interactive, connected 3D neural map:
+1.  Download and install **[Obsidian](https://obsidian.md/)** (free, offline Markdown editor).
 2.  Select **"Open folder as vault"** and choose your cloned `Second-Brain` directory.
-3.  Press **`Ctrl + G`** to open the **interactive 3D Graph View** and watch your notes automatically connect.
+3.  Open `Dashboard.md` — this is your master command center.
+4.  Press **`Ctrl + G`** (or **`Cmd + G`** on Mac) to open the interactive **3D Graph View** and see how your nodes connect.
 
 ---
 
