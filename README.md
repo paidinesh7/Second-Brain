@@ -43,15 +43,14 @@ cd Second-Brain
 ```
 
 ### 2. Launch Your CLI Assistant
-Run your conversational CLI directly inside your new local folder. You can use **Gemini CLI**, or other multi-model terminal tools like Simon Willison's **`llm` CLI** (to connect to OpenAI GPT-4, Claude 3.5 Sonnet, or Gemini):
+Run your conversational CLI directly inside your new local folder. You can use **Gemini CLI**, or OpenAI, Claude:
 
 ```bash
-# Option A: Start Gemini CLI
+# Start Gemini CLI
 gemini
 
-# Option B: Use 'llm' CLI (supports OpenAI, Claude, Gemini, etc.)
-pip install llm
-llm keys set openai  # Set your OpenAI, Anthropic, or Gemini key
+# Option B Examples: Use OpenAI, Claudeetc.)
+claude
 ```
 
 ### 3. Talk to Feed, Reflect, and Experiment!
