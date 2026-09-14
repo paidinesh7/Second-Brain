@@ -41,10 +41,15 @@ cd Second-Brain
 ```
 
 ### 2. Launch Your CLI Assistant
-Run your conversational CLI directly inside your new local folder:
+Run your conversational CLI directly inside your new local folder. You can use **Gemini CLI**, or other multi-model terminal tools like Simon Willison's **`llm` CLI** (to connect to OpenAI GPT-4, Claude 3.5 Sonnet, or Gemini):
+
 ```bash
-# Start your interactive companion
+# Option A: Start Gemini CLI
 gemini
+
+# Option B: Use 'llm' CLI (supports OpenAI, Claude, Gemini, etc.)
+pip install llm
+llm keys set openai  # Set your OpenAI, Anthropic, or Gemini key
 ```
 
 ### 3. Talk to Feed, Reflect, and Experiment!
@@ -58,6 +63,18 @@ Speak naturally to the CLI to initialize your files, append ideas from podcasts,
     > *"Add a new operational screen to my work playbook (investment.md) focusing on corporate governance and GST ledger audits."*
 *   **Identify Blind Spots:**
     > *"Analyze my investment playbook and curation notes. What blind spots do I have when evaluating early-stage companies?"*
+
+---
+
+## 💼 Portable Context: Take Your Brain Anywhere
+
+Because your Second Brain is stored in simple, offline-first plain-text Markdown files, your personal context is **100% portable**. It can travel with you to any AI platform or web interface:
+
+*   **Claude Projects:** Upload `profile.md`, `investment.md`, and `curation.md` directly as your Project Knowledge files. Set your custom instructions to: *"Act as my personal digital twin based on these files."*
+*   **ChatGPT Custom GPTs:** Drop these three files into the "Knowledge" section of your Custom GPT.
+*   **Gemini Gems:** Reference or upload your local markdown files to ground your custom Gem.
+
+No matter which model or web interface you use, your core context remains decentralized, under your control, and completely offline on your local machine.
 
 ---
 
