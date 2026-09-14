@@ -1,12 +1,14 @@
-# Second Brain: The Sovereign Personal Context Vault
+# Second Brain: Context is important
 
 > *"The context that you do not store and document, does not exist."*
 
-In the age of AI, the ultimate cognitive leverage isn't knowing how to write fancy prompts. It is owning your **Sovereign Context Layer**. 
+In the age of AI, atleast for now, leverage isn't knowing how to write fancy prompts. It is owning your context, understanding and frameworks. And if you are like me, then it is also about remembering the things I have learnt and recalling the lessons when needed. I am terrible at it. So I built this. 
 
 AI models are incredibly powerful at pattern-matching and connecting dots, but they have a fatal limitation: **they do not know you.** They do not know how you write, how you make decisions, or the unwritten rules that govern your work. 
 
 This repository is a plain-text Markdown vault designed to help you document yourself, offload your memory, and use an LLM Command Line Interface (CLI) to find your blind spots and pattern-match your life.
+
+While I have kept this really simple, the idea was that you will experiment with this. Figure that maybe a folder called Website is needed to put up all the context on a website for example. Or you will experiment with your fitness data here. Or add more things that is YOU. So while this is a start, it is to get you to think about what YOU should build for yourself. 
 
 ---
 
